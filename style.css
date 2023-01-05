@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/* main-header */
+.header{
+    background: #FFF8F3;
+    background-image: url('./image/header_bg.png'), url('./image/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 50px 0;
+    align-items: center;
+    
+
+}
+.mary-logo{
+    color: #FD6E0A;
+}
+.nav-menuk-logo{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: Open-Sans;
+    color: #181818 ;
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+}
+.nav-li, a{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #181818;
+    text-decoration: none;
+}
+.btn-primary{
+    padding: 15px 30px;
+    background-color: #FD6E0A;
+    color: #fff;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+.btn-primary:hover{
+    padding: 15px 30px;
+    background-color: #da5c02;
+    color: #fff;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: .4s;
+    cursor: pointer;
+}
+/* banner style */
+.banner{
+    padding: 0 100px 0 160px;
+    display: flex;
+    align-items: center;
+   
+
+}
+.banner h3{
+    font-size: 36px;
+    line-height: 51px;
+    font-weight: 600px;
+}
+.banner h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+
+.banner p{
+    font-size: 18px;
+    font-weight: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
