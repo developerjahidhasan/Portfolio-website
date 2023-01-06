@@ -180,6 +180,52 @@
     
 }
 /* resume style */
-.divs{
+.resume-sec{
+    margin: 0px 160px;
+}
+.resume-sec .divs{
     display: flex;
+    margin-top: 100px;
+    gap: 30px;
+}
+.resume-sec .dev-1{
+
+}
+.resume-sec .dev-2{
+
+}
+.resume-sec .resume-hed-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+.resume-sec .resumes p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.resume-sec .resumes h4{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 10px;
+    color: #474747;
+    margin-top: 30px;
+}
+.resume-sec .resumes .resume-title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 20px;
+    
+}
+.resume-sec .resume-btn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
