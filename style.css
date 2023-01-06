@@ -229,3 +229,41 @@
     margin-top: 50px;
     margin-bottom: 100px;
 }
+/* contact section style */
+.contact-sec{
+    padding: 130px 160px 100px 160px;
+    background-color: #FFF8F3;
+
+}
+.contact-sec .contact-container{
+    display: flex;
+    gap: 100px;
+}
+.contact-div-1{
+    width: 50%;
+}
+
+.contact-div-1 h3{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 20px;
+}
+.contact-div-1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.contact-div-1 .contact-social img{
+    margin-right: 10px;
+}
+/* form */
+.form .inp, textarea{
+    border: none;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    width: 60%;
+
+}
